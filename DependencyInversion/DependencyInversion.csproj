@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LaPaulita.Sales.Controllers\LaPaulita.Sales.Controllers.csproj" />
+    <ProjectReference Include="..\LaPaulita.Sales.Presenters\LaPaulita.Sales.Presenters.csproj" />
+    <ProjectReference Include="..\LaPaulita.Sales.Repository\LaPaulita.Sales.Repositories.csproj" />
+    <ProjectReference Include="..\LaPaulita.UsesCase\LaPaulita.Sales.UserCase.csproj" />
+  </ItemGroup>
+
+</Project>

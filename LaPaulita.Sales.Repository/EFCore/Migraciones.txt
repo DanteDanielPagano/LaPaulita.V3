@@ -1,0 +1,34 @@
+﻿Crear la migración
+Add-Migration InitialCreate -p LaPaulita.Sales.Repositories -s LaPaulita.Sales.Repositories -c LaPaulitaContext
+
+Actualización de la DB
+Update-Database -p LaPaulita.Sales.Repositories -s LaPaulita.Sales.Repositories -context LaPaulitaContext
+
+
+Cadena de conexión
+Data Source=(LocalDb)\\MSSQLLocalDB;Initial Catalog=LaPaulitaDB;Integrated Security=SSPI;
+
+{
+  "clientId": 1,
+  "shippingAddress": "La Pampa 132",
+  "shippingCity": 1,
+  "shippingCountry": 1,
+  "shippingZip": "5620",
+  "orderDetails": [
+    {
+      "productId": 1,
+      "productPrice": 175.26,
+      "productQuantty": 1
+    },
+    {
+      "productId": 1,
+      "productPrice": 175.26,
+      "productQuantty": 5
+    },
+    {
+      "productId": 2,
+      "productPrice": 375.26,
+      "productQuantty": 1
+    }
+  ]
+}

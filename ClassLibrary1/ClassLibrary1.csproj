@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LaPaulita.Core\LaPaulita.Entity.csproj" />
+    <ProjectReference Include="..\LaPaulita.Sales.Controllers\LaPaulita.Sales.Controllers.csproj" />
+    <ProjectReference Include="..\LaPaulita.Sales.Presenters\LaPaulita.Sales.Presenters.csproj" />
+    <ProjectReference Include="..\LaPaulita.Sales\LaPaulita.Sales.BusinessRules.csproj" />
+    <ProjectReference Include="..\LaPaulita.UsesCase\LaPaulita.Sales.UsesCase.csproj" />
+  </ItemGroup>
+
+</Project>
